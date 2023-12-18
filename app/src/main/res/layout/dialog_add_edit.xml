@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tipo" />
+
+    <EditText
+        android:id="@+id/editTextSabor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Sabor" />
+
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Peso" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Precio" />
+
+    <EditText
+        android:id="@+id/editTextImage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Image URL" />
+
+</LinearLayout>
